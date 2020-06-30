@@ -19,7 +19,7 @@
   "content_scripts": [
     {
       "matches": ["*://www.srldc.in/*"],
-      "js": ["change2.js","cjquery.js","jquery.js","jqueryui.js","pmu.js"]
+      "js": ["main.js","cjquery.js","jquery.js","jqueryui.js","pmu.js"]
     }
   ]
 

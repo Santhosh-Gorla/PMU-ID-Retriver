@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "My Addon",
+  "version": "1.0",
+
+  "description": "Description here.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+  
+  "permissions": [
+    "activeTab"
+   ],
+  "page_action": {
+        "default_popup": "PMU ID Retriver2.html"
+      },
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.srldc.in/*"],
+      "js": ["change2.js","cjquery.js","jquery.js","jqueryui.js","pmu.js"]
+    }
+  ]
+
+}
